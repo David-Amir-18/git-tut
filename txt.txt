@@ -8,4 +8,23 @@ git status
 git comit -a -m ""
 git diff : to know the difference ( know the chanegs made)
 git log : to see the history
-gti restore : to go to the prev commit
+git restore : to go to the prev commit
+git branch -M main : creating a main branch
+ssh-kegen -o : we do this only once on every machine ,
+               to be able to connect to the repo without
+               having to login everytime,  you'll get a key
+               inside the .ssh file, then go to your settings 
+               in git hub . and pu the key in the 
+               SSH and GPG keys tab,
+
+git remote add origin SSH_repo_link : setup connection with the repo
+git  push -u origin main : push the code to the remote repo
+                           main is the branch name
+
+
+mkdir folder_name : make a  folder_name
+dir : see all the folders
+cd folder_name : open folder 
+
+echo "content in file" >> file_name : creat a file 
+cat file_name : know the contents of a file
