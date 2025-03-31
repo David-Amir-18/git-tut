@@ -7,3 +7,5 @@ git commit : to commit(Save)
 git status 
 git comit -a -m ""
 git diff : to know the difference ( know the chanegs made)
+git log : to see the history
+gti restore : to go to the prev commit
