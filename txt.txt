@@ -17,10 +17,16 @@ ssh-kegen -o : we do this only once on every machine ,
                in git hub . and pu the key in the 
                SSH and GPG keys tab,
 
-git remote add origin SSH_repo_link : setup connection with the repo
+git remote add origin SSH_repo_link : setup connection with the repo 
+                      origin is the variable name for the link
+git remote remove origin : removes the connection
 git  push -u origin main : push the code to the remote repo
                            main is the branch name
-
+git tag : gives all the tags up till now
+git tag -a (v)1.0 -m "" : adds a tag (the -a stands for annotated 
+                              there's another type called
+                               lightweight), annotated  if the 
+                               version will be released
 
 mkdir folder_name : make a  folder_name
 dir : see all the folders
