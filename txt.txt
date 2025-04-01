@@ -5,7 +5,7 @@ hello world !!
 git add : to add to staging
 git commit : to commit(Save)
 git status 
-git comit -a -m ""
+git commit -a -m ""
 git diff : to know the difference ( know the chanegs made)
 git log : to see the history
 git restore : to go to the prev commit
@@ -14,7 +14,7 @@ ssh-kegen -o : we do this only once on every machine ,
                to be able to connect to the repo without
                having to login everytime,  you'll get a key
                inside the .ssh file, then go to your settings 
-               in git hub . and pu the key in the 
+               in git hub . and put the key in the 
                SSH and GPG keys tab,
 
 git remote add origin SSH_repo_link : setup connection with the repo 
@@ -27,10 +27,14 @@ git tag -a (v)1.0 -m "" : adds a tag (the -a stands for annotated
                               there's another type called
                                lightweight), annotated  if the 
                                version will be released
-
+git show 1.0 : show the version
 mkdir folder_name : make a  folder_name
 dir : see all the folders
 cd folder_name : open folder 
 
 echo "content in file" >> file_name : creat a file 
 cat file_name : know the contents of a file
+
+Get-Process | Where-Object { $_.ProcessName -like "*git*" }
+Get-Process | Where-Object { $_.ProcessName -like "*git*" } | Stop-Process -Force
+
