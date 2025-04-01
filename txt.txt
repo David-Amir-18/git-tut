@@ -2,12 +2,15 @@ hello world !!
     take inputs
     add teh values
 
+git clone link
 git add : to add to staging
 git commit : to commit(Save)
 git status 
 git commit -a -m ""
 git diff : to know the difference ( know the chanegs made)
 git log : to see the history
+git log --pretty=oneline : a nice way to see the log
+git log --graph
 git restore : to go to the prev commit
 git branch -M main : creating a main branch
 ssh-kegen -o : we do this only once on every machine ,
@@ -28,10 +31,18 @@ git tag -a (v)1.0 -m "" : adds a tag (the -a stands for annotated
                                lightweight), annotated  if the 
                                version will be released
 git show 1.0 : show the version
+git push 1.0 : you have to push the tags also
+git switch/chechout branch_name : go to anther branch
+git switch/chechout -c/-b branch_name : creats a new branch
+git branch : give you all the branches , 
+             the active branch will have a star beside it
+git branch -d branch_name : deletes a branch
+git push origin branch_name : pushes the branch
+git merge branch_name : you have to be on the main branch
+
 mkdir folder_name : make a  folder_name
 dir : see all the folders
 cd folder_name : open folder 
-
 echo "content in file" >> file_name : creat a file 
 cat file_name : know the contents of a file
 
